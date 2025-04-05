@@ -1,9 +1,11 @@
+html,
 body {
   margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure the background covers the full page */
   font-family: Arial, sans-serif;
   color: #fff;
   text-align: center;
-  padding: 0;
 
   /* Background setup */
   background-color: #ffffff;
@@ -23,6 +25,12 @@ body {
 header h1 {
   font-size: 2.5rem;
   margin: 20px 0;
+}
+
+header,
+main,
+footer {
+  background: transparent; /* Ensure child elements don’t override the background */
 }
 
 .directory-grid {
