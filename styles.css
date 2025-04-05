@@ -1,18 +1,23 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #ffffff;
-  background-image: radial-gradient(
-    circle,
-    rgba(0, 0, 0, 0.1) 0%,
-    rgba(0, 0, 0, 0.05) 50%,
-    rgba(0, 0, 0, 0) 100%
-  );
-  background-size: 10px 10px;
-  background-repeat: repeat;
   color: #fff;
   text-align: center;
   padding: 0;
+
+  /* Background setup */
+  background-color: #ffffff;
+  background-image: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.1) 1%,
+      rgba(0, 0, 0, 0.05) 20%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    radial-gradient(circle, #fbd3e9, #bb377d); /* Add a gradient for color */
+  background-size: 5px 5px, cover; /* Dot grid size and color gradient */
+  background-repeat: repeat, no-repeat;
+  background-position: center, center;
+  background-attachment: fixed; /* Ensures it stays consistent on scroll */
 }
 
 header h1 {
