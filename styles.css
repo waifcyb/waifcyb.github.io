@@ -1,0 +1,198 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background: linear-gradient(to bottom, #fbd3e9, #bb377d);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+.directory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-item {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.grid-item:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.art {
+  background-image: url("assets/images/art-icon.png");
+}
+.graphics {
+  background-image: url("assets/images/graphics-icon.png");
+}
+.reviews {
+  background-image: url("assets/images/reviews-icon.png");
+}
+.shrines {
+  background-image: url("assets/images/shrines-icon.png");
+}
+.old-web {
+  background-image: url("assets/images/old-web-icon.png");
+}
+.link-me {
+  background-image: url("assets/images/link-me-icon.png");
+}
+.who {
+  background-image: url("assets/images/who-icon.png");
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.directory-freeform {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #fbd3e9, #bb377d);
+  overflow: hidden;
+}
+
+.link-container {
+  position: absolute;
+}
+
+.link-container a {
+  display: block;
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -9999px; /* Hide text visually but keep it accessible */
+  border-radius: 0; /* Remove rounded corners */
+  transition: transform 0.3s;
+}
+
+.link-container a:hover {
+  transform: scale(1.1);
+}
+
+/* Add specific images for each renamed link */
+.link-container.ginosworld a {
+  background-image: url("assets/images/ginosworld-icon.png");
+}
+
+.link-container.art a {
+  background-image: url("assets/images/art-icon.png");
+}
+
+.link-container.nocturne a {
+  background-image: url("assets/images/nocturne-icon.png");
+}
+
+.link-container.mystery a {
+  background-image: url("assets/images/mystery-icon.png");
+}
+
+.link-container.mystery2 a {
+  background-image: url("assets/images/mystery2-icon.png");
+}
+
+/* Position each link in an evenly spaced circle */
+.link-container.ginosworld {
+  top: calc(20% + 5%);
+  left: calc(50% - 3%);
+  transform: translate(-50%, -50%) rotate(-5deg);
+}
+
+.link-container.art {
+  top: calc(40% - 4%);
+  left: calc(75% + 2%);
+  transform: translate(-50%, -50%) rotate(10deg);
+}
+
+.link-container.nocturne {
+  top: calc(70% + 3%);
+  left: calc(60% - 5%);
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.link-container.mystery {
+  top: calc(70% - 2%);
+  left: calc(30% + 4%);
+  transform: translate(-50%, -50%) rotate(5deg);
+}
+
+.link-container.mystery2 {
+  top: calc(40% + 6%);
+  left: calc(20% - 2%);
+  transform: translate(-50%, -50%) rotate(-15deg);
+}
+
+.link-container.graphics a {
+  background-image: url("assets/images/graphics-icon.png");
+}
+
+.link-container.reviews a {
+  background-image: url("assets/images/reviews-icon.png");
+}
+
+.link-container.shrines a {
+  background-image: url("assets/images/shrines-icon.png");
+}
+
+.link-container.old-web a {
+  background-image: url("assets/images/old-web-icon.png");
+}
+
+.link-container.link-me a {
+  background-image: url("assets/images/link-me-icon.png");
+}
+
+.link-container.who a {
+  background-image: url("assets/images/who-icon.png");
+}
+
+.link-container.graphics {
+  top: calc(40% - 4%);
+  left: calc(75% + 2%);
+  transform: translate(-50%, -50%) rotate(10deg);
+}
+
+.link-container.reviews {
+  top: calc(70% + 3%);
+  left: calc(60% - 5%);
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.link-container.shrines {
+  top: calc(70% - 2%);
+  left: calc(30% + 4%);
+  transform: translate(-50%, -50%) rotate(5deg);
+}
+
+.link-container.link-me {
+  top: calc(40% + 6%);
+  left: calc(20% - 2%);
+  transform: translate(-50%, -50%) rotate(-15deg);
+}
+
+.link-container.who {
+  top: 15%;
+  right: 15%;
+}
