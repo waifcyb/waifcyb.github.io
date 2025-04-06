@@ -1,36 +1,43 @@
 # waifcyb.github.io
 
-Welcome to the waifcyb GitHub Pages project! This project serves as a personal website showcasing various files and resources.
+## Project Overview
+This project is a personal website titled "Natalie's World." It serves as a platform for sharing interests and creative works. The website features a visually appealing layout with interactive elements, including buttons that lead to various sections.
 
-## Project Structure
+## File Structure
+```
+waifcyb.github.io
+├── assets
+│   ├── css
+│   │   └── styles.css
+│   ├── images
+│   │   ├── balatro.jpeg
+│   │   ├── button-ginosworld.png
+│   │   ├── button-nocturne.png
+│   │   ├── graphicdesign94.JPG
+│   │   ├── horse.JPG
+│   │   ├── orange.png
+│   │   ├── sailormoon.JPG
+│   │   └── vivi.JPG
+│   └── js
+│       └── script.js
+├── index.html
+└── README.md
+```
 
-The project contains the following files:
+## Files Description
 
-- **index.html**: The main entry point for the website. It includes the basic structure and links to other resources.
-- **directory.html**: A directory page that lists all files in the same directory with a cute layout.
-- **styles.css**: The stylesheet that defines the visual appearance of the website, including layout, colors, fonts, and other design elements.
-- **README.md**: This documentation file, which provides an overview of the project and instructions for setup.
+- **index.html**: Contains the main HTML structure of the website, including metadata, links to CSS and JavaScript files, and the main content of the site.
 
-## Getting Started
+- **assets/css/styles.css**: Contains all the CSS styles for the project, defining layout, colors, fonts, and hover effects for buttons and other elements.
 
-To set up this project locally, follow these steps:
+- **assets/js/script.js**: Contains JavaScript code that adds interactivity to the website, including event listeners for buttons to create dynamic sparkle effects on hover.
 
-1. Clone the repository to your local machine:
-   ```
-   git clone https://github.com/yourusername/waifcyb.github.io.git
-   ```
+- **assets/images**: Directory containing all image assets used in the project, including various PNG and JPEG files for buttons and other visual elements.
 
-2. Navigate to the project directory:
-   ```
-   cd waifcyb.github.io
-   ```
-
-3. Open `index.html` in your web browser to view the website.
-
-## Contributing
-
-If you would like to contribute to this project, feel free to submit a pull request or open an issue for any suggestions or improvements.
+## Instructions for Use
+1. Clone the repository to your local machine.
+2. Open `index.html` in a web browser to view the website.
+3. Modify the content and styles as desired to personalize the site further.
 
 ## License
-
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available for personal use and modification.
