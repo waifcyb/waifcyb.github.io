@@ -10,14 +10,10 @@ waifcyb.github.io
 │   ├── css
 │   │   └── styles.css
 │   ├── images
-│   │   ├── balatro.jpeg
 │   │   ├── button-ginosworld.png
 │   │   ├── button-nocturne.png
-│   │   ├── graphicdesign94.JPG
 │   │   ├── horse.JPG
-│   │   ├── orange.png
-│   │   ├── sailormoon.JPG
-│   │   └── vivi.JPG
+│   │   └── orange.png
 │   └── js
 │       └── script.js
 ├── index.html
