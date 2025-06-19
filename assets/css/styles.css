@@ -74,6 +74,7 @@ h1 {
 .button span {
   font-weight: bold;
   transition: color 0.3s;
+  font-family: "Coral Pixels", sans-serif;
 }
 
 .button:hover span {
@@ -115,6 +116,7 @@ footer {
   margin-top: 40px;
   font-size: 14px;
   color: #666;
+  font-family: "Coral Pixels", sans-serif;
 }
 
 .divider {
