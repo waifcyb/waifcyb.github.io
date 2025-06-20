@@ -11,3 +11,14 @@ document.querySelectorAll('.panel .close').forEach(btn => {
     btn.closest('.sticker-wrapper').classList.remove('open');
   });
 });
+
+// floating decorative emojis
+const decorEmojis = ['🍓','😼','💞','🤍','💤','🌀','🍔','👒','🧤','🌐'];
+decorEmojis.forEach(char => {
+  const d = document.createElement('div');
+  d.className = 'decor';
+  d.textContent = char;
+  d.style.top = Math.random() * 90 + '%';
+  d.style.left = Math.random() * 90 + '%';
+  document.body.appendChild(d);
+});
