@@ -49,7 +49,6 @@ body {
   height: 100%;
 }
 
-
 .sticker-wrapper {
   position: absolute;
   top: 50%;
@@ -115,7 +114,7 @@ body {
   position: absolute;
   top: 0.2rem;
   right: 0.4rem;
-  background: #e0e0e0;
+ background: #e0e0e0;
   border: 1px solid #999;
   border-radius: 50%;
   width: 1.2rem;
